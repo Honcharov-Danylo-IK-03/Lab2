@@ -78,8 +78,6 @@
     display: grid;
     margin: 10px;
     grid-template: 1fr / 1fr 1fr 1fr;
-    bottom: 10px;
-    left: 10px;
 }
 
 .phone-2__button{
