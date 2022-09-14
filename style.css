@@ -61,7 +61,7 @@
 .phone-2__display{
     width: 100px;
     height: 100px;
-    margin: 10px 8px;
+    margin: 10px 8px 0;
     border: 1px solid black;
     border-radius: 15px;
     background-color: white;
@@ -76,7 +76,7 @@
 
 .phone-2__keyboard{
     display: grid;
-    margin: 10px;
+    margin: 3px 10px 10px;
     grid-template: 1fr / 1fr 1fr 1fr;
 }
 
