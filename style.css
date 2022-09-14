@@ -1,0 +1,92 @@
+.phone{
+    margin: 20px;
+}
+
+.phone__body{
+    position: relative;
+    width: 120px;
+    height: 220px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #D6E3BC;
+}
+
+.phone__display{
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+}
+
+.phone__display p{
+    padding-top: 5px;
+    font-size: 26px;
+    font-family: Tahoma, serif;
+}
+
+.phone__keyboard{
+    position: absolute;
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr;
+    bottom: 10px;
+    left: 10px;
+}
+
+.phone__button{
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #3F3151;
+    margin: 5px;
+}
+
+.phone-2{
+    margin: 20px;
+}
+
+.phone-2__body{
+    width: 120px;
+    height: 220px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #D6E3BC;
+}
+
+.phone-2__display{
+    width: 100px;
+    height: 100px;
+    margin: 10px 8px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+}
+
+.phone-2__display p{
+    padding-top: 5px;
+    font-size: 26px;
+    font-family: Tahoma, serif;
+}
+
+.phone-2__keyboard{
+    display: grid;
+    margin: 10px;
+    grid-template: 1fr / 1fr 1fr 1fr;
+    bottom: 10px;
+    left: 10px;
+}
+
+.phone-2__button{
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #3F3151;
+    margin: 5px;
+}

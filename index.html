@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table{
+            border: 1px solid black;
+            border-collapse:collapse;
+        }
+        td, th {
+            border: 1px solid black;
+            color: #390FD9;
+            padding: 10px;
+            width: 100px;
+            height: 25px;
+        }
+        .table__row_1{
+            background: #268f8f;
+        }
+        .table__row_2{
+            background: #f5f526;
+        }
+        .table__row_1:hover{
+            background: #f5f526;
+        }
+        .table__row_2:hover{
+            background: #268f8f;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<table>
+    <tbody>
+    <tr class='table__row_1'>
+        <td rowspan="2">Гончаров</td>
+        <td colspan="2">Данило</td>
+        <td>Володимирович</td>
+        <td></td>
+    </tr>
+    <tr class='table__row_2'>
+        <td rowspan="2">ІК-03</td>
+        <td rowspan="2">ЛР-2</td>
+        <td rowspan="3">26</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td rowspan="2"></td>
+    </tr>
+    <tr>
+        <td colspan="3"></td>
+    </tr>
+    </tbody>
+</table>
+<div class="phone">
+    <div class="phone__body">
+        <div class="phone__display">
+            <p>12:00</p>
+        </div>
+        <div class="phone__keyboard">
+            <div class="phone__button"></div>
+            <div class="phone__button"></div>
+            <div class="phone__button"></div>
+            <div class="phone__button"></div>
+            <div class="phone__button"></div>
+            <div class="phone__button"></div>
+            <div class="phone__button"></div>
+            <div class="phone__button"></div>
+            <div class="phone__button"></div>
+        </div>
+    </div>
+</div>
+
+<div class="phone-2">
+    <div class="phone-2__body">
+        <div class="phone-2__display">
+            <p>12:00</p>
+        </div>
+        <div class="phone-2__keyboard">
+            <div class="phone-2__button"></div>
+            <div class="phone-2__button"></div>
+            <div class="phone-2__button"></div>
+            <div class="phone-2__button"></div>
+            <div class="phone-2__button"></div>
+            <div class="phone-2__button"></div>
+            <div class="phone-2__button"></div>
+            <div class="phone-2__button"></div>
+            <div class="phone-2__button"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
